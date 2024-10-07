@@ -1,10 +1,10 @@
 SELECT name
 FROM cities
-WHERE name LIKE '%ськ';
+WHERE name LIKE '%СЃСЊРє';
 
 SELECT name
 FROM cities
-WHERE name LIKE '%донец%';
+WHERE name LIKE '%РґРѕРЅРµС†%';
 
 SELECT Concat(name, '(', region, ')') 
 FROM cities 
